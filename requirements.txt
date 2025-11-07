@@ -1,0 +1,29 @@
+# ===============================
+# Reel Virality Project Dependencies
+# ===============================
+
+# Core Python libraries
+numpy==1.25.2
+pandas==2.2.2
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# Machine learning / Deep learning
+scikit-learn==1.5.1
+torch==2.3.1
+torchvision==0.18.1
+
+# Video processing
+moviepy==1.0.3
+opencv-python==4.10.0.84
+ffmpeg-python==0.2.0
+
+# Text & NLP (for captions/comments analysis)
+nltk==3.8.1
+transformers==4.43.2
+sentencepiece==0.2.0
+
+# Utility
+tqdm==4.66.4
+requests==2.32.3
+python-dotenv==1.0.1

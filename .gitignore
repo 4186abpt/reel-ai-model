@@ -1,0 +1,37 @@
+# Python
+# Ignore Python virtual environment directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv
+reel-ai/
+venv/
+env/
+.Python
+.ipynb_checkpoints/ # Ignore Jupyter Notebook checkpoints
+
+# Operating System Files
+.DS_Store # Mac OS
+Thumbs.db # Windows
+
+# Data Files (Crucial for a Data Science Project)
+# The 'data' directory usually contains large files that should not be committed.
+
+# # Ignore all contents of the 'data' directory
+# data/
+
+# # EXCEPTION: Re-include the empty 'data/raw' and 'data/processed' folders 
+# # so the directory structure is preserved when cloning.
+# !data/
+# data/*
+
+# Re-include the data/raw and data/processed directories (but not their contents)
+!data/raw/
+data/raw/*
+!data/processed/
+data/processed/*
+
+# Notebook Artifacts
+# Ignore files created during notebook execution (e.g., temporary output)
+.ipynb_checkpoints/
