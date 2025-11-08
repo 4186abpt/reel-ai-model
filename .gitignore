@@ -15,12 +15,6 @@ env/
 .DS_Store # Mac OS
 Thumbs.db # Windows
 
-# Data Files (Crucial for a Data Science Project)
-# The 'data' directory usually contains large files that should not be committed.
-
-# # Ignore all contents of the 'data' directory
-# data/
-
 # # EXCEPTION: Re-include the empty 'data/raw' and 'data/processed' folders 
 # # so the directory structure is preserved when cloning.
 # !data/
@@ -35,3 +29,4 @@ data/processed/*
 # Notebook Artifacts
 # Ignore files created during notebook execution (e.g., temporary output)
 .ipynb_checkpoints/
+notebooks/

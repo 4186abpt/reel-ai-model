@@ -42,3 +42,7 @@ def process_all_videos(raw_dir="data/raw", out_path="data/processed/features.csv
     df = pd.DataFrame(all_features)
     df.to_csv(out_path, index=False)
     print(f"Saved features for {len(df)} videos → {out_path}")
+
+if __name__ == "__main__":
+    process_all_videos()
+

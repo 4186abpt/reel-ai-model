@@ -24,6 +24,7 @@ transformers==4.43.2
 sentencepiece==0.2.0
 
 # Utility
+ipykernel==7.1.0
 tqdm==4.66.4
 requests==2.32.3
 python-dotenv==1.0.1
